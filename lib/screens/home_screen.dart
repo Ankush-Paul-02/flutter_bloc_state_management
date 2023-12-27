@@ -1,4 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 import 'dart:developer' as devtools show log;
 import 'dart:io';
@@ -31,9 +30,9 @@ extension UrlString on PersonUrl {
   String get urlString {
     switch (this) {
       case PersonUrl.person1:
-        return 'http://192.168.92.126:5500/api/persons1.json';
+        return 'http://localhost/api/persons1.json';
       case PersonUrl.person2:
-        return 'http://192.168.92.126:5500/api/persons2.json';
+        return 'http://localhost/api/persons2.json';
     }
   }
 }
