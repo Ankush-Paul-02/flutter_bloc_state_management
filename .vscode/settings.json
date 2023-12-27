@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "statemanagement"
-    ]
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "flutter_bloc_statemanagement"
 }
